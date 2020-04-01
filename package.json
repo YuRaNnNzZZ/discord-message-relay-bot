@@ -1,0 +1,14 @@
+{
+  "name": "discord-message-relay-bot",
+  "version": "1.0.0",
+  "description": "Relays messages from one channel to another using webhooks.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "YuRaNnNzZZ",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  }
+}
