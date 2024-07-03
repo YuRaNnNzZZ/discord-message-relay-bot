@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020, YuRaNnNzZZ
+ * Copyright (c) 2024, YuRaNnNzZZ
  * 
  * Permission to use, copy, modify, and/or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -18,7 +18,7 @@ var fs = require("fs");
 var Discord = require("discord.js");
 
 var channelsListFileName = "bot-channels.txt";
-var channelsListMatcher = /^(\d+)\?https:\/\/[\w\.]*discordapp.com\/api\/webhooks\/(\d+)\/([\w-]+)$/;
+var channelsListMatcher = /^(\d+)\?https:\/\/[\w\.]*discord.com\/api\/webhooks\/(\d+)\/([\w-]+)$/;
 
 if (!fs.existsSync(channelsListFileName)) {
     console.log(`No channels list file detected. Please create a file named ${channelsListFileName} and add webhooks in there.`);
